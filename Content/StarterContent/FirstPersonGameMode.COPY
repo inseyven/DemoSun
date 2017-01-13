@@ -1,0 +1,51 @@
+Begin Object Class=Blueprint Name="FirstPersonGameMode"
+   Begin Object Class=SceneThumbnailInfo Name="SceneThumbnailInfo_14"
+   End Object
+   Begin Object Class=EdGraph Name="UserConstructionScript"
+      Begin Object Class=K2Node_FunctionEntry Name="K2Node_FunctionEntry_34"
+         Begin Object Class=EdGraphPin Name="EdGraphPin_6298"
+         End Object
+      End Object
+   End Object
+   Begin Object Class=EdGraph Name="EventGraph"
+   End Object
+   Begin Object Name="SceneThumbnailInfo_14"
+   End Object
+   Begin Object Name="UserConstructionScript"
+      Begin Object Name="K2Node_FunctionEntry_34"
+         Begin Object Name="EdGraphPin_6298"
+            PinName="then"
+            Direction=EGPD_Output
+            PinType=(PinCategory="exec")
+         End Object
+         bEnforceConstCorrectness=False
+         SignatureClass=Class'/Script/Engine.Actor'
+         SignatureName="UserConstructionScript"
+         Pins(0)=EdGraphPin'EdGraphPin_6298'
+         NodeGuid=5DD14EFB4410BFEE45AC2A99DEBB32B2
+      End Object
+      Schema=Class'/Script/BlueprintGraph.EdGraphSchema_K2'
+      Nodes(0)=K2Node_FunctionEntry'K2Node_FunctionEntry_34'
+      bAllowDeletion=False
+      GraphGuid=534A8BDA4A8D4BD428049D8E1C3FA1E5
+   End Object
+   Begin Object Name="EventGraph"
+      Schema=Class'/Script/BlueprintGraph.EdGraphSchema_K2'
+      bAllowDeletion=False
+      GraphGuid=4126C1664F8D307AC3DD45B98C6031BE
+   End Object
+   ParentClass=Class'/Script/Engine.GameMode'
+   BlueprintDescription="GameMode that specified the pawn and HUD Blueprints to use"
+   SimpleConstructionScript=SimpleConstructionScript'FirstPersonGameMode_C:SimpleConstructionScript_1'
+   UbergraphPages(0)=EdGraph'EventGraph'
+   FunctionGraphs(0)=EdGraph'UserConstructionScript'
+   CategorySorting(0)="My Game"
+   BlueprintSystemVersion=2
+   LastEditedDocuments(0)=(EditedObject=EdGraph'UserConstructionScript',SavedZoomAmount=1.000000)
+   LastEditedDocuments(1)=(EditedObject=EdGraph'EventGraph',SavedZoomAmount=1.000000)
+   ThumbnailInfo=SceneThumbnailInfo'SceneThumbnailInfo_14'
+   GeneratedClass=BlueprintGeneratedClass'FirstPersonGameMode_C'
+   bLegacyNeedToPurgeSkelRefs=False
+   bLegacyGeneratedClassIsAuthoritative=True
+   BlueprintGuid=BB57AD24E1B235769D5B0BF83FCBE66C
+End Object
